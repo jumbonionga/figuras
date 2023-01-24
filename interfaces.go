@@ -2,7 +2,7 @@ package figuras
 
 import "fmt"
 
-type Figura interface {
+type figura interface {
 	area() float64
 	perimetro() float64
 }
