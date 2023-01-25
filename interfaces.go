@@ -7,7 +7,7 @@ type figura interface {
 	perimetro() float64
 }
 
-func Medidas(figura Figura) {
+func Medidas(figura figura) {
 	fmt.Println("Medidas:", figura)
 	fmt.Println("Area:", figura.area())
 	fmt.Println("Perimetro:", figura.perimetro())
